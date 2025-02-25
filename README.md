@@ -1,15 +1,61 @@
-# Ansh & Riley Full-Stack Template
+# Quick Capture App
 
-This is a full-stack template project for Software Composers to create  applications with AI.
+A Next.js 14 application for quick idea capture and note-taking.
 
-## Getting started
-To create a new project, you go to `/paths`, choose from our list of Paths, and then use Cursor's Composer feature to quickly scaffold your project!
+## Tech Stack
 
-You can also edit the Path's prompt template to be whatever you like!
+- Next.js 14 (App Router)
+- TypeScript
+- Tailwind CSS
+- Firebase (Authentication, Database, Storage)
+- OpenAI Integration
+- Anthropic Integration
+- Replicate Integration
+- Deepgram Integration
 
-## Technologies used
-This doesn't really matter, but is useful for the AI to understand more about this project. We are using the following technologies
-- React with Next.js 14 App Router
-- TailwindCSS
-- Firebase Auth, Storage, and Database
-- Multiple AI endpoints including OpenAI, Anthropic, and Replicate using Vercel's AI SDK
+## Getting Started
+
+1. Clone the repository
+```bash
+git clone [your-repo-url]
+```
+
+2. Install dependencies
+```bash
+npm install
+```
+
+3. Set up environment variables
+Create a `.env` file in the root directory and add your environment variables:
+```
+# Firebase
+NEXT_PUBLIC_FIREBASE_API_KEY=
+NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN=
+NEXT_PUBLIC_FIREBASE_PROJECT_ID=
+NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET=
+NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID=
+NEXT_PUBLIC_FIREBASE_APP_ID=
+
+# OpenAI
+OPENAI_API_KEY=
+
+# Anthropic
+ANTHROPIC_API_KEY=
+
+# Replicate
+REPLICATE_API_TOKEN=
+
+# Deepgram
+DEEPGRAM_API_KEY=
+```
+
+4. Run the development server
+```bash
+npm run dev
+```
+
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+
+## Deployment
+
+This project is configured for easy deployment on Vercel. Simply connect your GitHub repository to Vercel and it will automatically deploy your application.
