@@ -17,8 +17,8 @@
     "autoprefixer": "^10.4.17",
     "postcss": "^8.4.35",
     "ai": "^2.2.31",
-    "@ai-sdk/openai": "^1.0.0",
-    "@ai-sdk/anthropic": "^1.0.0",
+    "openai": "^4.28.0",
+    "@anthropic-ai/sdk": "^0.17.1",
     "firebase": "^10.8.0",
     "@deepgram/sdk": "^3.1.15"
   },
@@ -26,6 +26,8 @@
     "@types/node": "^20.11.19",
     "@types/react": "^18.2.57",
     "@types/react-dom": "^18.2.19",
-    "typescript": "^5.3.3"
+    "typescript": "^5.3.3",
+    "eslint": "^8.56.0",
+    "eslint-config-next": "14.1.0"
   }
 }

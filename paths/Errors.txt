@@ -1,0 +1,75 @@
+[15:40:15.028] Running build in Washington, D.C., USA (East) – iad1
+[15:40:15.153] Cloning github.com/evantcook1/quick-capture (Branch: main, Commit: 0557a42)
+[15:40:15.484] Cloning completed: 329.000ms
+[15:40:15.759] Previous build cache not available
+[15:40:16.233] Running "vercel build"
+[15:40:16.622] Vercel CLI 41.1.4
+[15:40:17.002] Installing dependencies...
+[15:40:55.961] 
+[15:40:55.962] added 288 packages in 39s
+[15:40:55.962] 
+[15:40:55.962] 40 packages are looking for funding
+[15:40:55.962]   run `npm fund` for details
+[15:40:56.227] Detected Next.js version: 14.1.0
+[15:40:56.232] Running "npm run build"
+[15:40:56.363] 
+[15:40:56.364] > quick-idea-capture@0.1.0 build
+[15:40:56.364] > next build
+[15:40:56.364] 
+[15:40:57.557] Attention: Next.js now collects completely anonymous telemetry regarding usage.
+[15:40:57.558] This information is used to shape Next.js' roadmap and prioritize features.
+[15:40:57.558] You can learn more, including how to opt-out if you'd not like to participate in this anonymous program, by visiting the following URL:
+[15:40:57.558] https://nextjs.org/telemetry
+[15:40:57.558] 
+[15:40:57.636]    ▲ Next.js 14.1.0
+[15:40:57.636] 
+[15:40:57.702]    Creating an optimized production build ...
+[15:41:06.261]  ⚠ Compiled with warnings
+[15:41:06.261] 
+[15:41:06.262] ./src/app/api/anthropic/chat/route.ts
+[15:41:06.262] Attempted import error: 'streamText' is not exported from 'ai' (imported as 'streamText').
+[15:41:06.262] 
+[15:41:06.262] Import trace for requested module:
+[15:41:06.264] ./src/app/api/anthropic/chat/route.ts
+[15:41:06.265] ./node_modules/next/dist/build/webpack/loaders/next-app-loader.js?name=app%2Fapi%2Fanthropic%2Fchat%2Froute&page=%2Fapi%2Fanthropic%2Fchat%2Froute&pagePath=private-next-app-dir%2Fapi%2Fanthropic%2Fchat%2Froute.ts&appDir=%2Fvercel%2Fpath0%2Fsrc%2Fapp&appPaths=%2Fapi%2Fanthropic%2Fchat%2Froute&pageExtensions=tsx&pageExtensions=ts&pageExtensions=jsx&pageExtensions=js&basePath=&assetPrefix=&nextConfigOutput=&preferredRegion=&middlewareConfig=e30%3D!./src/app/api/anthropic/chat/route.ts?__next_edge_ssr_entry__
+[15:41:06.266] 
+[15:41:06.266] ./src/app/api/anthropic/chat/route.ts
+[15:41:06.266] Attempted import error: 'convertToCoreMessages' is not exported from 'ai' (imported as 'convertToCoreMessages').
+[15:41:06.266] 
+[15:41:06.266] Import trace for requested module:
+[15:41:06.266] ./src/app/api/anthropic/chat/route.ts
+[15:41:06.266] ./node_modules/next/dist/build/webpack/loaders/next-app-loader.js?name=app%2Fapi%2Fanthropic%2Fchat%2Froute&page=%2Fapi%2Fanthropic%2Fchat%2Froute&pagePath=private-next-app-dir%2Fapi%2Fanthropic%2Fchat%2Froute.ts&appDir=%2Fvercel%2Fpath0%2Fsrc%2Fapp&appPaths=%2Fapi%2Fanthropic%2Fchat%2Froute&pageExtensions=tsx&pageExtensions=ts&pageExtensions=jsx&pageExtensions=js&basePath=&assetPrefix=&nextConfigOutput=&preferredRegion=&middlewareConfig=e30%3D!./src/app/api/anthropic/chat/route.ts?__next_edge_ssr_entry__
+[15:41:06.266] 
+[15:41:06.266] ./src/app/api/openai/chat/route.ts
+[15:41:06.266] Attempted import error: 'streamText' is not exported from 'ai' (imported as 'streamText').
+[15:41:06.266] 
+[15:41:06.266] Import trace for requested module:
+[15:41:06.266] ./src/app/api/openai/chat/route.ts
+[15:41:06.266] ./node_modules/next/dist/build/webpack/loaders/next-app-loader.js?name=app%2Fapi%2Fopenai%2Fchat%2Froute&page=%2Fapi%2Fopenai%2Fchat%2Froute&pagePath=private-next-app-dir%2Fapi%2Fopenai%2Fchat%2Froute.ts&appDir=%2Fvercel%2Fpath0%2Fsrc%2Fapp&appPaths=%2Fapi%2Fopenai%2Fchat%2Froute&pageExtensions=tsx&pageExtensions=ts&pageExtensions=jsx&pageExtensions=js&basePath=&assetPrefix=&nextConfigOutput=&preferredRegion=&middlewareConfig=e30%3D!./src/app/api/openai/chat/route.ts?__next_edge_ssr_entry__
+[15:41:06.266] 
+[15:41:06.266] ./src/app/api/openai/chat/route.ts
+[15:41:06.266] Attempted import error: 'convertToCoreMessages' is not exported from 'ai' (imported as 'convertToCoreMessages').
+[15:41:06.266] 
+[15:41:06.266] Import trace for requested module:
+[15:41:06.266] ./src/app/api/openai/chat/route.ts
+[15:41:06.266] ./node_modules/next/dist/build/webpack/loaders/next-app-loader.js?name=app%2Fapi%2Fopenai%2Fchat%2Froute&page=%2Fapi%2Fopenai%2Fchat%2Froute&pagePath=private-next-app-dir%2Fapi%2Fopenai%2Fchat%2Froute.ts&appDir=%2Fvercel%2Fpath0%2Fsrc%2Fapp&appPaths=%2Fapi%2Fopenai%2Fchat%2Froute&pageExtensions=tsx&pageExtensions=ts&pageExtensions=jsx&pageExtensions=js&basePath=&assetPrefix=&nextConfigOutput=&preferredRegion=&middlewareConfig=e30%3D!./src/app/api/openai/chat/route.ts?__next_edge_ssr_entry__
+[15:41:06.267] 
+[15:41:08.440] request to https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap failed, reason: 
+[15:41:08.440] 
+[15:41:08.440] Retrying 1/3...
+[15:41:11.260]  ✓ Compiled successfully
+[15:41:11.261]    Linting and checking validity of types ...
+[15:41:11.397]  ⨯ ESLint must be installed in order to run during builds: npm install --save-dev eslint
+[15:41:14.929] Failed to compile.
+[15:41:14.930] 
+[15:41:14.930] ./src/app/api/anthropic/chat/route.ts:2:10
+[15:41:14.930] Type error: Module '"ai"' has no exported member 'convertToCoreMessages'.
+[15:41:14.930] 
+[15:41:14.930] [0m [90m 1 |[39m [36mimport[39m { anthropic } [36mfrom[39m [32m"@ai-sdk/anthropic"[39m[33m;[39m[0m
+[15:41:14.930] [0m[31m[1m>[22m[39m[90m 2 |[39m [36mimport[39m { convertToCoreMessages[33m,[39m streamText } [36mfrom[39m [32m"ai"[39m[33m;[39m[0m
+[15:41:14.930] [0m [90m   |[39m          [31m[1m^[22m[39m[0m
+[15:41:14.930] [0m [90m 3 |[39m[0m
+[15:41:14.930] [0m [90m 4 |[39m [36mexport[39m [36mconst[39m runtime [33m=[39m [32m"edge"[39m[33m;[39m[0m
+[15:41:14.930] [0m [90m 5 |[39m[0m
+[15:41:14.977] Error: Command "npm run build" exited with 1
+[15:41:15.361] 
